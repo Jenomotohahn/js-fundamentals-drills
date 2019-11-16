@@ -7,8 +7,8 @@
  */
 var doubleArray;
 
-doubleArray(arr){
-  arr.map(x => console.log(x));
+function doubleArray(arr) => {
+  return arr.map(x => { x * 2 });
 };
 
 /* #sumArrays
